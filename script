@@ -1,0 +1,24 @@
+from flask import Flask, render_template, request
+import csv
+app=Flask(__name__)
+@app.route('/greet', methods=['POST'])
+def greet():
+    inputBrewery = request.form['beersearch']
+    inputBrewery = inputBrewery.upper()
+    if inputBrewery in 
+    return render_template("home.html",myName=inputName)
+@app.route('/')
+def home():
+    
+    return render_template("home.html",myName="")
+
+
+if __name__=="__main__":
+    app.run(debug=True)
+
+with open('brewerylist.txt') as csv_file:
+    csv_erader = csv.reader(csv_file,delimiter=',')
+    line_count = 0
+    for row in csv_reader:
+        if user_search in csv_file
+        di
