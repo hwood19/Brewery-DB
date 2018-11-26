@@ -4,3 +4,6 @@
 3. Create a CSV file through Excel to access through Python. - DONE
 4. Change aspects of the code files to better fit this project. (example - delete unnecesary pages of web API). - DONE
 6. Change background color by changing html RGB. - DONE
+
+
+add tasks 
