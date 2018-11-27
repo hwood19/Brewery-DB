@@ -13,7 +13,7 @@ def greet():
         line_count = 0
         found_result = False
         for row in csv_reader:
-            if input_brewery.upper() == row[0].upper():
+            if input_brewery == row[0].upper():
                 found_result = True
                 return ("{name} in {row} has a {rating} Google rating."
                         .format(name=row[0], row=row[1], rating=row[2]))
