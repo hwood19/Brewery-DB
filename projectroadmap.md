@@ -5,5 +5,6 @@
 4. Change aspects of the code files to better fit this project. (example - delete unnecesary pages of web API). - DONE
 6. Change background color by changing html RGB. - DONE
 7. Remove 'about' page on each file. - IP
-
-add tasks 
+8. Change CD in command prompt to proper location - DONE
+9. Every response currently returns "Specified brewery not present" - IP
+10. Create powerpoint for project. - DONE
