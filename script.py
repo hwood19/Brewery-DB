@@ -14,8 +14,8 @@ def greet():
 
         for row in csv_reader:
             if input_brewery == row[0].upper():
-                result_string = "{name} in {row} has a {rating} Google rating."
-                result_string = result_string.format(name=row[0], row=row[1], rating=row[2])                        
+                result_string = "{name} in {row} has a {rating} Google rating. Their best seller is their {beer} which is a {type}. Try it out"
+                result_string = result_string.format(name=row[0], row=row[1], rating=row[2], beer=row[3], type=row[4])                        
                 return render_template('home.html', data=result_string)
 				
     return render_template('home.html', data="Specified brewery was not found.")
