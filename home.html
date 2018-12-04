@@ -4,8 +4,14 @@
     <h1>Georgia Brewery Database homepage</h1>
     <p>Search for your favorite local brewery to see their address, and rating. </p>
     <p><form action='{{ url_for('greet') }}' method='post'>
-        Please search for a Georgia Brewery: <input type='text' name='beersearch'><br>
+        Please search for a Georgia Brewery: <input type='text' name='beersearch'>
         <input type='submit' value='Submit'>
         </form></p>
+		<br>
+		{% if data is defined %}
+        <p>{{ data }}!</p>
+		{% else %}
+        <p></p>
+		{% endif %}
 </div>
 {% endblock %}
