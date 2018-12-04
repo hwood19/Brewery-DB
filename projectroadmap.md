@@ -8,5 +8,5 @@
 8. Change CD in command prompt to proper location - DONE
 9. Every response currently returns "Specified brewery not present" - FIXED
 10. Create powerpoint for project. - DONE
-11. render template change to match home page on greet page - IP
-12. Fix error happening in test runs, where /greet app route has no template. - IP
+11. render template change to match home page on greet page - DONE
+12. Fix error happening in test runs, where /greet app route has no template. - DONE
